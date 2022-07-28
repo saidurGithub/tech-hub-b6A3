@@ -249,7 +249,8 @@
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="text-whait mt-5 pt-1 register-now text-whait">
-                            <button class=" register-now px-4">Register Now</button>
+                            <button class=" register-now px-4" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">Register Now</button>
                         </div>
                     </div>
                 </div>
@@ -386,6 +387,36 @@
             </div>
         </section>
     </main>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">TECH HUB</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h1>TECH HUB</h1>
+                    <form>
+                        <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label">Your Email:</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message-text" class="col-form-label">Message:</label>
+                            <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End modal -->
 
     <footer class="bg-dark footer-main py-5">
         <div class="container">
