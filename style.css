@@ -36,6 +36,16 @@
 }
 
 .footer-main{
-    margin-bottom: -50px;
-    
+    margin-bottom: -50px;  
+}
+
+.div-footer-icons i{
+    cursor: pointer;
+    transform: 0.4s;
+    font-size: 18px;
+}
+
+.div-footer-icons i:hover{
+    color: #289BDE;
+    font-size: 22px;
 }
