@@ -1,0 +1,30 @@
+
+
+.see-more{
+    width: 200px;
+    margin: auto;
+}
+
+.working-section{
+    background:#289BDE;
+}
+.working-img{
+    width: 80%;
+    height: 80%;
+}
+
+.join-us{
+    background-color: #289BDE;
+    padding: 40px;
+    color: #fff;
+}
+
+.register-now{
+    color: #289BDE;
+    padding: 12px;
+    border: none;
+    font-weight: bold;
+    border-radius: 7px;
+    
+}
+
