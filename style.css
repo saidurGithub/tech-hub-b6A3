@@ -50,6 +50,9 @@
     font-size: 22px;
 }
 
+.explore-bg{
+    background-color: #ceebfcb0;
+}
 /* Media Query section*/
 
 @media only screen and (max-width: 576px) {
